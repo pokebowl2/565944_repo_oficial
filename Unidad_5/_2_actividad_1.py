@@ -9,3 +9,19 @@ Se nos solicita crear un bloque de código que realice lo siguiente:
 5. Si es inválido, mostrar un mensaje en la consola
 6. A fin de poder repetir el flujo, incluir el código dentro de un bucle while
 """
+
+
+
+estudiantes = []
+
+nombre = input("Ingrese su nombre: ")
+nombre.strip() == ""
+if nombre.strip() == "":
+    print("El nombre ingresado es invalido.")
+else:
+    estudiantes.append(nombre)
+    print(f"Nombre {nombre} agregado.")
+
+
+print("Bienvenido!")
+
